@@ -1,4 +1,4 @@
-## Sokol POA Network faucet
+## omniverse Testnet Faucet
 
 ### Building from source
 

@@ -23,14 +23,14 @@
   padding-top: 50px;
 
   &:before {
-    @include image-2x('../images/loading@2x.png');
+    //@include image-2x('../images/loading@2x.png');
     content: '';
     position: absolute;
     left: 0;
     top: 0;
     width: 206px;
     height: 35px;
-    background-image: url("../images/loading.png");
+    //background-image: url("../images/loading.png");
     background-position: 0 0;
   }
 
