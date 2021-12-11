@@ -31,7 +31,7 @@ module.exports = function (app) {
 	    };
 
 	    debug(post_options);
-
+		console.log(post_data_json)
 	    var post_req = https.request(post_options, function (res) {
 	        res.setEncoding('utf8');
 	        var output = "";
@@ -43,6 +43,7 @@ module.exports = function (app) {
 	            debug("##############");
 	            debug('Output from validateCaptcha: ');
 	            debug(output);
+				console.log(output)
 	            debug("##############");
 	            if (output) {
 	              debug(JSON.parse(output));

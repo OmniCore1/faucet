@@ -18,7 +18,6 @@ var configPath = './config.json';
 var configExists = fs.existsSync(configPath, fs.F_OK);
 if (configExists) config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 app.config = config;
-
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));

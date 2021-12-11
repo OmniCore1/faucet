@@ -24,7 +24,7 @@ $(function() {
 				$("#receiver").val('');
 				loader.addClass("hidden");
 				swal("Success",
-				  "15 TOMO is successfully transfered to " + receiver +" in Tx<br /><a href='https://scan.testnet.omniverse.com/txs/" + data.success.txHash + "' target='_blank'>" + data.success.txHash + "</a>",
+				  "15 OMNI is successfully transfered to " + receiver +" in Tx<br /><a href='https://scan.omniverse.com/txs/" + data.success.txHash + "' target='_blank'>" + data.success.txHash + "</a>",
 				  "success"
 				);
 				grecaptcha.reset();
